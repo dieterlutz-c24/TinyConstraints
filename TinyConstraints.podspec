@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'TinyConstraints'
-    s.version = '4.0.1'
+    s.version = '4.0.1.0'
     s.swift_versions = [5.0]
     s.summary = 'Nothing but sugar.'
     s.description = <<-DESC
@@ -12,7 +12,5 @@ TinyConstraints is the syntactic sugar that makes Auto Layout sweeter for human 
     s.source = { :git => 'https://github.com/roberthein/TinyConstraints.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/roberthein'
     s.ios.deployment_target = '9.0'
-    s.tvos.deployment_target = '9.0'
-    s.osx.deployment_target = '10.11'
     s.source_files = 'TinyConstraints/Classes/**/*.{swift}'
 end
